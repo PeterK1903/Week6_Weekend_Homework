@@ -1,0 +1,40 @@
+body {
+  font-family: Verdana;
+  background-image: url('https://static.vecteezy.com/system/resources/previews/000/566/720/large_2x/football-background-vector.jpg');
+    background-size: cover;
+}
+
+
+#form-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0 0 25px 0 black;
+  border-radius: 25px;
+  border: 1px solid black;
+  height: 200px
+}
+
+.form-item {
+  padding-left: 1.5rem;
+  margin-right: 1.8rem;
+  align-self: center;
+  align-content: center;
+}
+
+label.primary {
+  display: block;
+  margin: 0.4em 0;
+}
+
+button, input[type="submit"] {
+  margin-top: 1rem;
+}
+
+a {
+ color: darkblue;
+}
+
+p {
+ /* font-weight: bold; */
+}
